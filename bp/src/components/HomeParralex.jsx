@@ -1,10 +1,12 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 
-import image1 from '../components/bg.jpg'
-import image2 from '../components/paxel.jpeg'
-import image3 from '../components/paxel2.png'
-import image4 from '../components/bg.jpg'
+import aboutbg from '../components/images/t.jpg'
+import image1 from '../components/images/bg.jpg'
+import image2 from '../components/images/paxel.jpeg'
+import image3 from '../components/images/paxel2.png'
+import image4 from '../components/images/bg.jpg'
+import HomeHero from './HomeHero';
 
 
 
@@ -19,9 +21,12 @@ const inlineStyle = {
 
 function HomeParralex() {
     return (
+
+      <>
+      <HomeHero/>
         <div style={{ textAlign: 'center' }}>
-          <Parallax bgImage={ image1 } strength={500}>
-            <div style={{ height: 500 }}>
+          <Parallax bgImage={ aboutbg } strength={500}>
+            <div style={{ height: 800 }}>
               <div style={inlineStyle}>HTML inside the parallax</div>
             </div>
           </Parallax>
@@ -63,6 +68,7 @@ function HomeParralex() {
           </Parallax>
           <div style={{ height: '100vh' }}></div>
         </div>
+        </>
       );
     }
     

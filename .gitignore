@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+.idea
+target/
+application-dev.properties
+node_modules
+deploy.sh
+build
+
+*.iml
