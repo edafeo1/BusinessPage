@@ -8,12 +8,17 @@ function HomeHero() {
             <div class="row hero-content">
 
             <div class="column large-full">
-
-                <h1>
-                    FegoHuncho <br/>
-                    {/* Add Star Wars Scroll Here */}
-                </h1>
-
+                <div className="wrapper">
+                    <div className="scroll-text">
+                        <h1> FegoHuncho </h1>
+                        <p> Scroll Effect</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis similique debitis neque labore placeat aspernatur possimus quae, architecto animi natus.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas recusandae hic necessitatibus eaque modi adipisci autem natus eligendi, aut cum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, error tenetur. Explicabo, dolorem blanditiis? Et delectus adipisci rem aliquam voluptatum?</p>
+                
+                    </div>
+                </div>
+                
         {/* Links */}
     <ul class="hero-social">
         <li>
