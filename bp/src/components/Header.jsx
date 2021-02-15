@@ -16,15 +16,15 @@ function Header() {
     {/* Nav */}
         <div class="header-content">
     
-            <sidebar class="row header-nav-wrap">
-                <ul class="header-nav">
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav" id="header-effect">
                     <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">About</a></li>
                     <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
                     <li><a href="mailto:#0" title="Contact us">Say Hello</a></li>
                 </ul>
-            </sidebar> 
+            </nav> 
 
 
 

@@ -7,6 +7,7 @@ import image2 from '../components/images/paxel.jpeg'
 import image3 from '../components/images/paxel2.png'
 import image4 from '../components/images/bg.jpg'
 import HomeHero from './HomeHero';
+import About from './About';
 
 
 
@@ -19,15 +20,28 @@ const inlineStyle = {
   transform: 'translate(-50%, -50%)',
 }
 
+window.addEventListener("scroll", (event) => {
+  
+  if(window.pageYOffset > 800){
+    document.getElementById("header-effect").style.display= 'flex';
+  } else {
+    document.getElementById("header-effect").style.display= 'block';
+  }
+  
+
+  // scroll = 800px;
+});
+
+
 function HomeParralex() {
     return (
 
       <>
       <HomeHero/>
         <div style={{ textAlign: 'center' }}>
-          <Parallax bgImage={ aboutbg } strength={500}>
+          <Parallax bgImage={ aboutbg } strength={500} className="parallax-1">
             <div style={{ height: 800 }}>
-              <div style={inlineStyle}>HTML inside the parallax</div>
+              <About/>
             </div>
           </Parallax>
           <h1>| | |</h1>
