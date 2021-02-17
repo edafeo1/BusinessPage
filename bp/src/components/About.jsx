@@ -18,9 +18,13 @@ const iStyle = {
 function About() {
     return (
         <section id="about">
+             <h4 className="mobile-h4">Rocket Icon </h4>
              <div id='about-wrapper'>
 
+                 
 <div id="about-section">
+
+ 
     
     <div>
         {/* Icon Div */}

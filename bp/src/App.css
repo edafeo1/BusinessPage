@@ -47,8 +47,8 @@ background: linear-gradient(180deg, rgba(20,20,20,1) 40%, rgba(20,20,20,0) 100%)
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 40px;
+  grid-row-gap: 1rem;
+  grid-column-gap: 0px;
 }
 @media screen and (min-width: 776px) {
   
@@ -78,4 +78,39 @@ background: linear-gradient(180deg, rgba(20,20,20,1) 40%, rgba(20,20,20,0) 100%)
 
 #paragraph{
   margin-top: 5 0px;
+}
+
+
+
+
+
+
+
+.mobile-h4{
+  text-align: center;
+  display: flex;
+  color: antiquewhite;
+  animation-name: move;
+  animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+ animation-timing-function:cubic-bezier(0, .77,  0, .20)
+    
+
+}
+
+@keyframes move {
+  from{transform: translateX(-2000px);}
+  to{transform: translateX(1500px);}
+}
+
+
+#wrapper{
+  margin-top: 100px;
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-row-gap: 1rem;
+  grid-column-gap: 0px;
 }

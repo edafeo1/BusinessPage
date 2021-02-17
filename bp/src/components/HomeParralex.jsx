@@ -8,6 +8,7 @@ import image3 from '../components/images/paxel2.png'
 import image4 from '../components/images/bg.jpg'
 import HomeHero from './HomeHero';
 import About from './About';
+import Stats from './Stats';
 
 
 
@@ -34,35 +35,49 @@ window.addEventListener("scroll", (event) => {
 
 
 function HomeParralex() {
+ 
     return (
 
       <>
       <HomeHero/>
+
         <div style={{ textAlign: 'center' }}>
+
           <Parallax bgImage={ aboutbg } strength={500} className="parallax-1">
-            <div style={{ height: 800 }}>
+
+            <div style={{ height: 500 }}>
               <About/>
             </div>
+
           </Parallax>
+
           <h1>| | |</h1>
+
           <Parallax bgImage={ image2 } blur={{ min: -1, max: 5 }}>
-            <div style={{ height: 500 }}>
-              <div style={inlineStyle}>Dinamic blur</div>
+
+            <div style={{ height: 200 }}>
+              <Stats/>
             </div>
+
           </Parallax>
-          <h1>| | |</h1>
+
+          <h1>| | |</h1> {/* Add Hower Effect to this Div */}
+
           <Parallax bgImage={ image3 } strength={-200} >
+
             <div style={{ height: 500 }}>
               <div style={inlineStyle}>Reverse direction</div>
             </div>
+
           </Parallax>
+
           <h1>| | |</h1>
+          
           <Parallax 
             bgImage={ image4 }
             strength={200}
             renderLayer={precentage => (
-              <div 
-                style={{
+              <div style={{
                   position: 'absolute',
                   width: '100px',
                   height: '100px',
