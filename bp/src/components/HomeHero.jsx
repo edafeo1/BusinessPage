@@ -1,10 +1,11 @@
 import React from 'react'
+import bg from '../components/images/bg1.jpg'
 
 function HomeHero() {
     return (
         <>
         {/* Main Section */}
-        <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="" >
+        <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src={bg} >
             <div class="row hero-content">
 
             <div class="column large-full">

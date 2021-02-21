@@ -1,45 +1,54 @@
 import React from 'react'
+import CountUp from "react-countup";
+import VisibilitySensor from 'react-visibility-sensor';
 
-const iStyle = {
-    color: 'black'
-}
+
 
 function Stats() {
 
     return (
         <section>
-            <div id="wrapper">
-            
+            <div id='stats-wrapper'>
 
                  
 <div id="about-section">
-
-
     <div id='paragraph'>
-        <h4 style={iStyle}>Stats</h4>
-    </div>
+    <CountUp end={100} redraw={true}>
+        {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+                <span ref={countUpRef} style={{fontSize: '30px'}}/>
+            </VisibilitySensor>
+        )}
+    </CountUp>
+        </div>
 </div>
 
 <div id="about-section">
     <div id='paragraph'>
-        <h4 style={iStyle}>Stats</h4>
-    </div>
+    <CountUp end={100} redraw={true}>
+        {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+                <span ref={countUpRef} style={{fontSize: '30px'}}/>
+            </VisibilitySensor>
+        )}
+    </CountUp>
+        </div>
 </div>
 
 <div id="about-section">
     <div id='paragraph'>
-        <h4 style={iStyle}>Stats</h4>
-    </div>
+    <CountUp end={100} redraw={true}>
+        {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+                <span ref={countUpRef} style={{fontSize: '30px'}}/>
+            </VisibilitySensor>
+        )}
+    </CountUp>
+        </div>
 </div>
 
-<div id="about-section">
-    
-    <div id='paragraph'>
-        <h4 style={iStyle}>Stats</h4>
-    </div>
+
 </div>
-</div>
-    
         </section>
     )
 }

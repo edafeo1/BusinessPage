@@ -63,6 +63,8 @@ function About() {
         <p style={iStyle}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, tempore.</p>
     </div>
 </div>
+
+
 </div>
         </section>
        

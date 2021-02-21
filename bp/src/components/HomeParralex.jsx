@@ -4,11 +4,12 @@ import { Parallax } from 'react-parallax';
 import aboutbg from '../components/images/t.jpg'
 import image1 from '../components/images/bg.jpg'
 import image2 from '../components/images/paxel.jpeg'
-import image3 from '../components/images/paxel2.png'
+import image3 from '../components/images/stats.jpg'
 import image4 from '../components/images/bg.jpg'
 import HomeHero from './HomeHero';
 import About from './About';
 import Stats from './Stats';
+import WhatIDo from './WhatIDo';
 
 
 
@@ -51,30 +52,30 @@ function HomeParralex() {
 
           </Parallax>
 
-          <h1>| | |</h1>
+          <h1>| | | Slide Across Text</h1>
 
-          <Parallax bgImage={ image2 } blur={{ min: -1, max: 5 }}>
+          <Parallax bgImage={ image3 } blur={{ min: -3, max: 5 }}>
 
-            <div style={{ height: 200 }}>
+            <div style={{ height: 150 }}>
               <Stats/>
             </div>
 
           </Parallax>
 
-          <h1>| | |</h1> {/* Add Hower Effect to this Div */}
+          <h1>| | | Slide Across Text</h1> {/* Add Hower Effect to this Div */}
 
-          <Parallax bgImage={ image3 } strength={-200} >
+          <Parallax bgImage='' strength={-200} >
 
-            <div style={{ height: 500 }}>
-              <div style={inlineStyle}>Reverse direction</div>
+            <div style={{ height: 800, objectFit: 'contain'}}>
+              <WhatIDo/>
             </div>
 
           </Parallax>
 
-          <h1>| | |</h1>
+          <h1>| | | Slide accros Text</h1>
           
           <Parallax 
-            bgImage={ image4 }
+            bgImage=''
             strength={200}
             renderLayer={precentage => (
               <div style={{
@@ -91,11 +92,16 @@ function HomeParralex() {
               </div>
             )}
           >
+            <div style={{ height: 150, backgroundColor: 'gray'}}>
+               Testimonial
+
+            </div>
+
             <div style={{ height: 500 }}>
               <div style={inlineStyle}>Render prop</div>
             </div>
           </Parallax>
-          <div style={{ height: '100vh' }}></div>
+          
         </div>
         </>
       );
