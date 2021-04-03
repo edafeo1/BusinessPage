@@ -1,4 +1,5 @@
 import React from 'react'
+import "../index.css"
 
 const iStyle = {
     color: 'white',
@@ -31,8 +32,8 @@ function About() {
         <h4 style={iStyle}>Icon</h4>
     </div>
 
-    <div id='paragraph'>
-        <h4 style={iStyle}>Heading</h4>
+    <div id='paragraph' class=''>
+        <h4 class="text-primary">Heading</h4>
         {/* Message Div */}
         <p style={iStyle}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, voluptas.</p>
     </div>

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './tailwind.css';
 import HomeParralex from './components/HomeParralex';
 import Header from './components/Header';
 import Footer from './components/Footer';
