@@ -21,7 +21,7 @@ const inlineStyle = {
   padding: '20px',
   transform: 'translate(-50%, -50%)',
 }
-
+/*
 window.addEventListener("scroll", (event) => {
   
   if(window.pageYOffset > 800){
@@ -33,6 +33,7 @@ window.addEventListener("scroll", (event) => {
 
   // scroll = 800px;
 });
+*/
 
 
 function HomeParralex() {
@@ -40,13 +41,13 @@ function HomeParralex() {
     return (
 
       <>
-      <HomeHero/>
+      
 
         <div style={{ textAlign: 'center' }}>
 
           <Parallax bgImage={ aboutbg } strength={500} className="parallax-1">
 
-            <div style={{ height: 500 }}>
+            <div style={{ height: 300 }}>
               <About/>
             </div>
 

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
+    "@heroicons/react": "^1.0.1",
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@react-spring/addons": "^9.0.0-canary.809.5.f01ecc2",
@@ -21,8 +22,8 @@
   },
   "scripts": {
     "start": "craco start",
-     "build": "craco build",
-     "test": "craco test",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "build:css": "craco src/index.css -o src/tailwind.css",
     "watch:css": "craco src/index.css -o src/tailwind.css -w"

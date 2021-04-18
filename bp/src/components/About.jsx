@@ -1,8 +1,12 @@
 import React from 'react'
+import { DesktopComputerIcon } from '@heroicons/react/solid'
+import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
 import "../index.css"
 
 const iStyle = {
     color: 'white',
+    width: '30px',
+    height: '40px'
     
     /*
     background: '#fff',
@@ -29,39 +33,39 @@ function About() {
     
     <div>
         {/* Icon Div */}
-        <h4 style={iStyle}>Icon</h4>
+        <ImportantDevicesIcon style={iStyle} className="w-96 h-96"/>
     </div>
 
     <div id='paragraph' class=''>
-        <h4 class="text-primary">Heading</h4>
+        <h4 className="text-white-500">Heading</h4>
         {/* Message Div */}
-        <p style={iStyle}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, voluptas.</p>
+        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, voluptas.</p>
     </div>
 </div>
 
 <div id="about-section">
     <div>
         {/* Icon Div */}
-        <h4 style={iStyle}>Icon</h4>
+        <h4 >Icon</h4>
     </div>
 
     <div id='paragraph'>
-        <h4 style={iStyle}>Heading</h4>
+        <h4 >Heading</h4>
         {/* Message Div */}
-        <p style={iStyle}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quidem.</p>
+        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quidem.</p>
     </div>
 </div>
 
 <div id="about-section">
     <div>
         {/* Icon Div */}
-        <h4 style={iStyle}>Icon</h4>
+        <h4 >Icon</h4>
     </div>
 
     <div id='paragraph'>
-        <h4 style={iStyle}>Heading</h4>
+        <h4 >Heading</h4>
         {/* Message Div */}
-        <p style={iStyle}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, tempore.</p>
+        <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, tempore.</p>
     </div>
 </div>
 
