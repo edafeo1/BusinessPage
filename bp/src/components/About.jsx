@@ -24,53 +24,50 @@ function About() {
     return (
         <section id="about">
              <h4 className="mobile-h4">Rocket Icon </h4>
-             <div id='about-wrapper'>
 
-                 
-<div id="about-section">
+             <div className="block ml-20 mr-20 md:grid grid-cols-3">
 
- 
-    
-    <div>
-        {/* Icon Div */}
-        <ImportantDevicesIcon style={iStyle} className="w-96 h-96"/>
-    </div>
+                 <div className='flex'>          {/* Add Paddings*/}
+                     {/*icon*/}
+                     <div className=''>
+                         <p>Icon</p>
+                     </div>
 
-    <div id='paragraph' class=''>
-        <h4 className="text-white-500">Heading</h4>
-        {/* Message Div */}
-        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, voluptas.</p>
-    </div>
-</div>
+                     {/*Heading*/}
+                     <div >
+                         <span>Heading</span>
+                         <p>I know it’s important to track the growth of your project over time. I’ll monitor and analyse so that I can implement improvements that will keep it developing as you do.</p>
+                         
+                     </div>
+                 </div>
 
-<div id="about-section">
-    <div>
-        {/* Icon Div */}
-        <h4 >Icon</h4>
-    </div>
+                 <div className='flex ml-auto mr-auto'>        
+                     {/*icon*/}
+                     <div>
+                         <p className=''>Icon</p>
+                     </div>
 
-    <div id='paragraph'>
-        <h4 >Heading</h4>
-        {/* Message Div */}
-        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quidem.</p>
-    </div>
-</div>
+                     {/*Heading*/}
+                     <div>
+                         <span>Heading</span>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, dicta.</p>
+                     </div>
+                 </div>
 
-<div id="about-section">
-    <div>
-        {/* Icon Div */}
-        <h4 >Icon</h4>
-    </div>
+                 <div className='flex ml-auto mr-auto'>
+                     {/*icon*/}
+                     <div>
+                         <p>Icon</p>
+                     </div>
 
-    <div id='paragraph'>
-        <h4 >Heading</h4>
-        {/* Message Div */}
-        <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, tempore.</p>
-    </div>
-</div>
+                     {/*Heading*/}
+                     <div>
+                         <span>Heading</span>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, dicta.</p>
+                     </div>
+                 </div>
 
-
-</div>
+             </div>
         </section>
        
     )

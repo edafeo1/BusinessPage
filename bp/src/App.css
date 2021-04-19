@@ -97,7 +97,7 @@ height: 50%;
   display: flex;
   color: antiquewhite;
   animation-name: move;
-  animation-duration: 20s;
+  animation-duration: 30s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-direction:normal;

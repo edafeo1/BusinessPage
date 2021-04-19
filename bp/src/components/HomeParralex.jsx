@@ -47,7 +47,7 @@ function HomeParralex() {
 
           <Parallax bgImage={ aboutbg } strength={500} className="parallax-1">
 
-            <div style={{ height: 300 }}>
+            <div >
               <About/>
             </div>
 
