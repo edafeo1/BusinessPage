@@ -11,38 +11,25 @@ function Header() {
         {/* Header section black overlay on bg */}
         <div className=' w-full h-full bg-black absolute top-0 left-0 bg-opacity-60 z-10'>
             {/* Navbar */}
-            <nav className='absolute top-0 left-0  w-full h-24 flex items-center bg-black bg-opacity-30 px-12 z-20'>
-              <div>
-                <a className='text-yellow-400 text-xl font-bold'>
-                  OFEGO-EDAFE
-                </a>
-              </div>
-              <div className=' flex justify-end ml-auto gap-x-11 '>
-                <a href='' className='block text-yellow-500 text-sm uppercase font-semibold'>
-                  HOME
-                </a>
-                <a href='' className='block text-white text-sm uppercase font-semibold'>
-                  ABOUT ME
-                </a>
-                <a href='' className='block text-white text-sm uppercase font-semibold'>
-                  MY PORTFOLIO
-                </a>
-                <a href='' className='block text-white text-sm uppercase font-semibold'>
-                  What i create
-                </a>
-                <a href='' className='block text-white text-sm uppercase font-semibold'>
-                  Pricing
-                </a>
-                <a href='' className='block text-white text-sm uppercase font-semibold'>
-                  Contact Me
-                </a>
-              </div>
+            <nav className='text-right sm:text-center ml-80 sm:ml-0 mt-10 sm:mt-0 sm:flex sm:justify-between bg-black bg-opacity-30 px-12 z-20'>
+             <div>
+               <h1>
+               <a href="/" >Ofego Edafe</a>
+               </h1>
+             </div>
+
+             <div className='space-x-10 items-center space-y-4 sm:space-y-0 sm:flex'>
+               <span className='block '>what i do</span>
+               <span className='block'>contact</span>
+               <span className='block'>portfolio</span>
+             </div>
+
             </nav>
             {/* Header Text */}
             <div className=' w-9/12 mx-auto h-full '>
               <div className=' flex items-center h-full'>
-                <div>
-                  <h1 className=' text-9xl font-bold text-white text-center leading-tight' style={{textShadow: '0 1px 20px #212121'}}>Focused on brand success</h1>
+                <div className=''>
+                  <h1 className='invisible md:visible text-9xl font-bold text-white text-center leading-tight' style={{textShadow: '0 1px 20px #212121'}}>Focused on brand success</h1>
                   <div className=' mt-16 text-center'>
                     <a className=' bg-yellow-400 px-8 py-3 rounded-full shadow-md text-white uppercase text-sm mr-7'>Contact Me</a>
                     <a className=' bg-yellow-400 px-8 py-3 rounded-full shadow-md text-white uppercase text-sm'>Discover Me</a>

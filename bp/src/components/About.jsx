@@ -27,7 +27,7 @@ function About() {
 
              <div className="block ml-20 mr-20 md:grid grid-cols-3">
 
-                 <div className='flex'>          {/* Add Paddings*/}
+                 <div className='flex flex-row mb-10'>          {/* Add Paddings*/}
                      {/*icon*/}
                      <div className=''>
                          <p>Icon</p>
@@ -41,7 +41,7 @@ function About() {
                      </div>
                  </div>
 
-                 <div className='flex ml-auto mr-auto'>        
+                 <div className='flex flex-row mb-10'>        
                      {/*icon*/}
                      <div>
                          <p className=''>Icon</p>
